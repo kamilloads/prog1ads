@@ -3,5 +3,5 @@
 
 salario = float(input("Digite o valor do seu salário atual: "))
 reajuste = float(input("Digite o valor do percentual do reajuste: "))
-salario_final = ((reajuste+100)/100)*salario
+salario_final = ((reajuste+100)/100)+salario
 print(f"Seu salario será de {salario_final}")
