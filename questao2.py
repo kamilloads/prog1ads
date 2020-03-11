@@ -4,4 +4,4 @@
 banho5 = 45
 m3 = 1000
 resultado = m3 / banho5
-print(f"São nescessarios {resultado} para consumir {m3} metros cúbicos de água.")
+print(f"São nescessarios {resultado:.1f} para consumir {m3} metros cúbicos de água.")
